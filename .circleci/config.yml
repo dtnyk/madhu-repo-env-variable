@@ -11,7 +11,7 @@ jobs:
     docker:
       - image: cimg/base:2020.01
     enviornment:
-       #MY_ENV_VAR: <<pipeline.id>>
+      #MY_ENV_VAR: << pipeline.id >>
     working_directory: ~/project  
     steps:
       - checkout
